@@ -12,7 +12,9 @@ A Homebrew repo to install Waktu Solat CLI
 ## Install
 
 ```sh
+brew untap waktusolatmy/tools &>/dev/null || true
 brew tap waktusolatmy/tools
+
 brew install waktusolat
 waktusolat version
 ```
@@ -21,4 +23,5 @@ waktusolat version
 
 ```sh
 brew uninstall waktusolat
+brew untap waktusolatmy/tools
 ```
