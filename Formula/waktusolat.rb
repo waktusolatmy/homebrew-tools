@@ -5,20 +5,20 @@
 class Waktusolat < Formula
   desc "Waktu Solat CLI"
   homepage "https://github.com/waktusolatmy/cli"
-  version "0.0.2"
+  version "0.0.3"
 
   on_macos do
     on_intel do
-      url "https://github.com/waktusolatmy/cli/releases/download/v0.0.2/waktusolat-0.0.2-darwin-amd64.tar.gz"
-      sha256 "68e4e72ab991a5412dc7b5eb96ea11a8d485e213d69278025162d118690c9cde"
+      url "https://github.com/waktusolatmy/cli/releases/download/v0.0.3/waktusolat-0.0.3-darwin-amd64.tar.gz"
+      sha256 "9819bff76cb093c1b77e57b8b6a076271eaa7df40ddc88ff38e82ab25e69ff6f"
 
       def install
         bin.install "waktusolat"
       end
     end
     on_arm do
-      url "https://github.com/waktusolatmy/cli/releases/download/v0.0.2/waktusolat-0.0.2-darwin-arm64.tar.gz"
-      sha256 "f4e585f63c3581f421fd57d38704e84a27469b8daf379dffc75cf904c910ee8c"
+      url "https://github.com/waktusolatmy/cli/releases/download/v0.0.3/waktusolat-0.0.3-darwin-arm64.tar.gz"
+      sha256 "b3bea4b39aeeb644aa58b14e45d104bab603b63b54aa445155fa759081578673"
 
       def install
         bin.install "waktusolat"
@@ -29,8 +29,8 @@ class Waktusolat < Formula
   on_linux do
     on_intel do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/waktusolatmy/cli/releases/download/v0.0.2/waktusolat-0.0.2-linux-amd64.tar.gz"
-        sha256 "005962fa75fe5b99dd7d67a26b96f618c9f80457eadda3e5fecca049c24a24c0"
+        url "https://github.com/waktusolatmy/cli/releases/download/v0.0.3/waktusolat-0.0.3-linux-amd64.tar.gz"
+        sha256 "a367fbadf7fe0b6f1d6838b41518cf50b3708fe4298d8a86b21063d743eaa99f"
 
         def install
           bin.install "waktusolat"
@@ -39,8 +39,8 @@ class Waktusolat < Formula
     end
     on_arm do
       if !Hardware::CPU.is_64_bit?
-        url "https://github.com/waktusolatmy/cli/releases/download/v0.0.2/waktusolat-0.0.2-linux-arm.tar.gz"
-        sha256 "bffd0f57948347cd07b3c6be48d515f110ca8bfc4d058c2617671ca8cfe3cbcf"
+        url "https://github.com/waktusolatmy/cli/releases/download/v0.0.3/waktusolat-0.0.3-linux-arm.tar.gz"
+        sha256 "67f09a1d38576e6f8feb9a5cf5586ce32cfd2e00b0455cd1428d4cf25362cc4e"
 
         def install
           bin.install "waktusolat"
@@ -49,8 +49,8 @@ class Waktusolat < Formula
     end
     on_arm do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/waktusolatmy/cli/releases/download/v0.0.2/waktusolat-0.0.2-linux-arm64.tar.gz"
-        sha256 "bf27df4d3d25451c476c3d249bf9d6ed34212b93adf92702d9fc030c8b49d5aa"
+        url "https://github.com/waktusolatmy/cli/releases/download/v0.0.3/waktusolat-0.0.3-linux-arm64.tar.gz"
+        sha256 "809e947bab8b7ea6a88ce6e117721f5d5669e3526a1c681d71dcbece1002176c"
 
         def install
           bin.install "waktusolat"
